@@ -4,6 +4,6 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
   datasource:
     url: jdbc:mysql://10.0.0.75:3306/devdb
-    username: root
-    password:
+    username: appuser
+    password: app_pw
     driver-class-name: com.mysql.cj.jdbc.Driver
